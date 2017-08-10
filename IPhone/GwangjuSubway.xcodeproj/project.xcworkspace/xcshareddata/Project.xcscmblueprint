@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "AD8B503E420842938630BFF24B24909CB9295F45",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD8B503E420842938630BFF24B24909CB9295F45" : 9223372036854775807,
+    "4E0A3C2C8DB1640A785739FFF0EDADAA66B33307" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "852C1941-0F28-47E1-BF86-6CD14F3732F6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD8B503E420842938630BFF24B24909CB9295F45" : "energy4train\/",
+    "4E0A3C2C8DB1640A785739FFF0EDADAA66B33307" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Project",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "trunk\/ios\/Project.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/guest.keti@bitbucket.org\/pusikpark\/energy4train.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E0A3C2C8DB1640A785739FFF0EDADAA66B33307"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/pusikpark\/energy4train.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD8B503E420842938630BFF24B24909CB9295F45"
+    }
+  ]
+}
