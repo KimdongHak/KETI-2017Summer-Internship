@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3E32FC01F37F87200F3BEE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32FBF1F37F87200F3BEE4 /* AppDelegate.swift */; };
+		E3E32FC21F37F87200F3BEE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32FC11F37F87200F3BEE4 /* ViewController.swift */; };
+		E3E32FC51F37F87200F3BEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E32FC31F37F87200F3BEE4 /* Main.storyboard */; };
+		E3E32FC71F37F87200F3BEE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E32FC61F37F87200F3BEE4 /* Assets.xcassets */; };
+		E3E32FCA1F37F87200F3BEE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E32FC81F37F87200F3BEE4 /* LaunchScreen.storyboard */; };
+		E3E32FD51F37F87200F3BEE4 /* IPad_GwangjuSubwayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32FD41F37F87200F3BEE4 /* IPad_GwangjuSubwayTests.swift */; };
+		E3E32FE01F37F87200F3BEE4 /* IPad_GwangjuSubwayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32FDF1F37F87200F3BEE4 /* IPad_GwangjuSubwayUITests.swift */; };
+		E3E32FEE1F37FA0300F3BEE4 /* SurveyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E32FED1F37FA0300F3BEE4 /* SurveyCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3E32FD11F37F87200F3BEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E32FB41F37F87100F3BEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E32FBB1F37F87100F3BEE4;
+			remoteInfo = "IPad-GwangjuSubway";
+		};
+		E3E32FDC1F37F87200F3BEE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3E32FB41F37F87100F3BEE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E32FBB1F37F87100F3BEE4;
+			remoteInfo = "IPad-GwangjuSubway";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3E32FBC1F37F87100F3BEE4 /* IPad-GwangjuSubway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IPad-GwangjuSubway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E32FBF1F37F87200F3BEE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3E32FC11F37F87200F3BEE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3E32FC41F37F87200F3BEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3E32FC61F37F87200F3BEE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3E32FC91F37F87200F3BEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3E32FCB1F37F87200F3BEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E32FD01F37F87200F3BEE4 /* IPad-GwangjuSubwayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPad-GwangjuSubwayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E32FD41F37F87200F3BEE4 /* IPad_GwangjuSubwayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPad_GwangjuSubwayTests.swift; sourceTree = "<group>"; };
+		E3E32FD61F37F87200F3BEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E32FDB1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IPad-GwangjuSubwayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E32FDF1F37F87200F3BEE4 /* IPad_GwangjuSubwayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPad_GwangjuSubwayUITests.swift; sourceTree = "<group>"; };
+		E3E32FE11F37F87200F3BEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E32FED1F37FA0300F3BEE4 /* SurveyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3E32FB91F37F87100F3BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FCD1F37F87200F3BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FD81F37F87200F3BEE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3E32FB31F37F87100F3BEE4 = {
+			isa = PBXGroup;
+			children = (
+				E3E32FBE1F37F87200F3BEE4 /* IPad-GwangjuSubway */,
+				E3E32FD31F37F87200F3BEE4 /* IPad-GwangjuSubwayTests */,
+				E3E32FDE1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests */,
+				E3E32FBD1F37F87100F3BEE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3E32FBD1F37F87100F3BEE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32FBC1F37F87100F3BEE4 /* IPad-GwangjuSubway.app */,
+				E3E32FD01F37F87200F3BEE4 /* IPad-GwangjuSubwayTests.xctest */,
+				E3E32FDB1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3E32FBE1F37F87200F3BEE4 /* IPad-GwangjuSubway */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32FBF1F37F87200F3BEE4 /* AppDelegate.swift */,
+				E3E32FC11F37F87200F3BEE4 /* ViewController.swift */,
+				E3E32FC31F37F87200F3BEE4 /* Main.storyboard */,
+				E3E32FC61F37F87200F3BEE4 /* Assets.xcassets */,
+				E3E32FC81F37F87200F3BEE4 /* LaunchScreen.storyboard */,
+				E3E32FCB1F37F87200F3BEE4 /* Info.plist */,
+				E3E32FED1F37FA0300F3BEE4 /* SurveyCollectionViewCell.swift */,
+			);
+			path = "IPad-GwangjuSubway";
+			sourceTree = "<group>";
+		};
+		E3E32FD31F37F87200F3BEE4 /* IPad-GwangjuSubwayTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32FD41F37F87200F3BEE4 /* IPad_GwangjuSubwayTests.swift */,
+				E3E32FD61F37F87200F3BEE4 /* Info.plist */,
+			);
+			path = "IPad-GwangjuSubwayTests";
+			sourceTree = "<group>";
+		};
+		E3E32FDE1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3E32FDF1F37F87200F3BEE4 /* IPad_GwangjuSubwayUITests.swift */,
+				E3E32FE11F37F87200F3BEE4 /* Info.plist */,
+			);
+			path = "IPad-GwangjuSubwayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3E32FBB1F37F87100F3BEE4 /* IPad-GwangjuSubway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E32FE41F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubway" */;
+			buildPhases = (
+				E3E32FB81F37F87100F3BEE4 /* Sources */,
+				E3E32FB91F37F87100F3BEE4 /* Frameworks */,
+				E3E32FBA1F37F87100F3BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IPad-GwangjuSubway";
+			productName = "IPad-GwangjuSubway";
+			productReference = E3E32FBC1F37F87100F3BEE4 /* IPad-GwangjuSubway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3E32FCF1F37F87200F3BEE4 /* IPad-GwangjuSubwayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E32FE71F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubwayTests" */;
+			buildPhases = (
+				E3E32FCC1F37F87200F3BEE4 /* Sources */,
+				E3E32FCD1F37F87200F3BEE4 /* Frameworks */,
+				E3E32FCE1F37F87200F3BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E32FD21F37F87200F3BEE4 /* PBXTargetDependency */,
+			);
+			name = "IPad-GwangjuSubwayTests";
+			productName = "IPad-GwangjuSubwayTests";
+			productReference = E3E32FD01F37F87200F3BEE4 /* IPad-GwangjuSubwayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3E32FDA1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E32FEA1F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubwayUITests" */;
+			buildPhases = (
+				E3E32FD71F37F87200F3BEE4 /* Sources */,
+				E3E32FD81F37F87200F3BEE4 /* Frameworks */,
+				E3E32FD91F37F87200F3BEE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3E32FDD1F37F87200F3BEE4 /* PBXTargetDependency */,
+			);
+			name = "IPad-GwangjuSubwayUITests";
+			productName = "IPad-GwangjuSubwayUITests";
+			productReference = E3E32FDB1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3E32FB41F37F87100F3BEE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ketis;
+				TargetAttributes = {
+					E3E32FBB1F37F87100F3BEE4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VML722RSJ5;
+						ProvisioningStyle = Automatic;
+					};
+					E3E32FCF1F37F87200F3BEE4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VML722RSJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3E32FBB1F37F87100F3BEE4;
+					};
+					E3E32FDA1F37F87200F3BEE4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VML722RSJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3E32FBB1F37F87100F3BEE4;
+					};
+				};
+			};
+			buildConfigurationList = E3E32FB71F37F87100F3BEE4 /* Build configuration list for PBXProject "IPad-GwangjuSubway" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3E32FB31F37F87100F3BEE4;
+			productRefGroup = E3E32FBD1F37F87100F3BEE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3E32FBB1F37F87100F3BEE4 /* IPad-GwangjuSubway */,
+				E3E32FCF1F37F87200F3BEE4 /* IPad-GwangjuSubwayTests */,
+				E3E32FDA1F37F87200F3BEE4 /* IPad-GwangjuSubwayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3E32FBA1F37F87100F3BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E32FCA1F37F87200F3BEE4 /* LaunchScreen.storyboard in Resources */,
+				E3E32FC71F37F87200F3BEE4 /* Assets.xcassets in Resources */,
+				E3E32FC51F37F87200F3BEE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FCE1F37F87200F3BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FD91F37F87200F3BEE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3E32FB81F37F87100F3BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E32FEE1F37FA0300F3BEE4 /* SurveyCollectionViewCell.swift in Sources */,
+				E3E32FC21F37F87200F3BEE4 /* ViewController.swift in Sources */,
+				E3E32FC01F37F87200F3BEE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FCC1F37F87200F3BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E32FD51F37F87200F3BEE4 /* IPad_GwangjuSubwayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E32FD71F37F87200F3BEE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E32FE01F37F87200F3BEE4 /* IPad_GwangjuSubwayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3E32FD21F37F87200F3BEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E32FBB1F37F87100F3BEE4 /* IPad-GwangjuSubway */;
+			targetProxy = E3E32FD11F37F87200F3BEE4 /* PBXContainerItemProxy */;
+		};
+		E3E32FDD1F37F87200F3BEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E32FBB1F37F87100F3BEE4 /* IPad-GwangjuSubway */;
+			targetProxy = E3E32FDC1F37F87200F3BEE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3E32FC31F37F87200F3BEE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E32FC41F37F87200F3BEE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3E32FC81F37F87200F3BEE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3E32FC91F37F87200F3BEE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3E32FE21F37F87200F3BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3E32FE31F37F87200F3BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3E32FE51F37F87200F3BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3E32FE61F37F87200F3BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubway/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E3E32FE81F37F87200F3BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubwayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubwayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPad-GwangjuSubway.app/IPad-GwangjuSubway";
+			};
+			name = Debug;
+		};
+		E3E32FE91F37F87200F3BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubwayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubwayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPad-GwangjuSubway.app/IPad-GwangjuSubway";
+			};
+			name = Release;
+		};
+		E3E32FEB1F37F87200F3BEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubwayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubwayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IPad-GwangjuSubway";
+			};
+			name = Debug;
+		};
+		E3E32FEC1F37F87200F3BEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VML722RSJ5;
+				INFOPLIST_FILE = "IPad-GwangjuSubwayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ketis.IPad-GwangjuSubwayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "IPad-GwangjuSubway";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3E32FB71F37F87100F3BEE4 /* Build configuration list for PBXProject "IPad-GwangjuSubway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E32FE21F37F87200F3BEE4 /* Debug */,
+				E3E32FE31F37F87200F3BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E32FE41F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E32FE51F37F87200F3BEE4 /* Debug */,
+				E3E32FE61F37F87200F3BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3E32FE71F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubwayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E32FE81F37F87200F3BEE4 /* Debug */,
+				E3E32FE91F37F87200F3BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3E32FEA1F37F87200F3BEE4 /* Build configuration list for PBXNativeTarget "IPad-GwangjuSubwayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E32FEB1F37F87200F3BEE4 /* Debug */,
+				E3E32FEC1F37F87200F3BEE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3E32FB41F37F87100F3BEE4 /* Project object */;
+}
