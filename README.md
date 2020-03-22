@@ -1,1 +1,1 @@
-# KETI-2017Summer-Internship
+# KETI Internship
